@@ -1,5 +1,6 @@
 # WikiAutomationFramework
 Technical Assignment Given by Equinix for the role of QA Automation Engineer
+- Automation framework is done with Selenium + java as base programming language + Cucumber framework + TestNG
 
 ## How to use 
 1. Import project into Ecplise
