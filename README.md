@@ -14,6 +14,6 @@ Ensure all the needed jar files that have been tagged as requirement have been a
 
 
 ## Video showcase of Automation Framework
-https://www.youtube.com/watch?v=oioZIuFSc1o
+https://youtu.be/znM21Yqbl20
 
 
