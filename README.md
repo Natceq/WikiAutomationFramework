@@ -12,6 +12,7 @@ Technical Assignment Given by Equinix for the role of QA Automation Engineer
 3. Right click on WikiFrameworkRunner, select convert to TestNG
 4. Right click on testing.xml
 5. Run as TestNG suite
+6. Open report.html in target folder to see the results of the test
 
 ### Requirements 
 Ensure all the needed jar files that have been tagged as requirement have been added to project
