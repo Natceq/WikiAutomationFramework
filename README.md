@@ -2,6 +2,10 @@
 Technical Assignment Given by Equinix for the role of QA Automation Engineer
 - Automation framework is done with Selenium + Java as base programming language + Cucumber framework + TestNG
 
+### Automation Test Scenarios 
+1. Open Wikipedia page and change language for the page. Verify that the webpage language has changed for 10 different languages.
+2. Open Wikipedia page and search for 10 different celebrities. Log the date of birth and spouse details for each of the celebrities.
+
 ### How to use 
 1. Import project into Ecplise
 2. Navigate to WikiFrameworkRunner
