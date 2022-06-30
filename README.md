@@ -9,7 +9,7 @@ Technical Assignment Given by Equinix for the role of QA Automation Engineer
 ### How to use 
 1. Import project into Ecplise
 2. Navigate to WikiFrameworkRunner.java
-3. Right click on WikiFrameworkRunner, select convert to TestNG
+3. Right click on WikiFrameworkRunner.java, select convert to TestNG
 4. Right click on testing.xml
 5. Run as TestNG suite
 6. Open report.html in target folder to see the results of the test
