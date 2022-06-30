@@ -20,7 +20,5 @@ Ensure all the needed jar files that have been tagged as requirement have been a
 - chromedriver_win32 (Chromedriver)
 - selenium-java-4.2.2 + sever jar files
 
-### Video showcase of Automation Framework
-https://youtu.be/znM21Yqbl20
 
 
