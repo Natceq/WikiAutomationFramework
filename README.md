@@ -17,7 +17,7 @@ Technical Assignment Given by Equinix for the role of QA Automation Engineer
 ### Requirements 
 Ensure all the needed jar files that have been tagged as requirement have been added to project
 - Cucumber_jar_files
-- chromedriver_win32 (Chromedriver)
+- chromedriver_win32 (Chromedriver) - change path to the chromedriver to the path on your computer
 - selenium-java-4.2.2 + sever jar files
 
 
