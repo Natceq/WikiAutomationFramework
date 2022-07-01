@@ -50,6 +50,7 @@ public class WikiFrameworkSteps {
 	//Validate search results
 	@Then ("^Ensure search is correct$")
 	public void ensure_search_is_correct() {
+		
 		WikiSearchResultPage searchResult = new WikiSearchResultPage(driver);
 		Assert.assertEquals(searchResult.getCelebrityName(), celebrityDetails);
 	}
@@ -77,7 +78,7 @@ public class WikiFrameworkSteps {
 	public void log_search_results() {
 		
 		byte[] screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
-	    scenario.attach(screenshot, "image/png", "Celebrtity searched : " + celebrityDetails);
+	    	scenario.attach(screenshot, "image/png", "Celebrtity searched : " + celebrityDetails);
 		driver.quit();
 	}
 	
@@ -104,7 +105,7 @@ public class WikiFrameworkSteps {
 	public void log_language_change_results() {
 		
 		byte[] screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
-	    scenario.attach(screenshot, "image/png", "Webapge Language : " + chosenLang);
+	    	scenario.attach(screenshot, "image/png", "Webapge Language : " + chosenLang);
 		driver.quit();
 	}
 }
